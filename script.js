@@ -30,7 +30,6 @@ result =(disc)=>{
    noOfPerson =  parseFloat($('#people').val());
    if(isNaN(noOfPerson) || noOfPerson == 0){
         noOfPerson = 1;
-        $('#people').val(1);
     }   
    perPersonCost = parseFloat(((bill * disc)/100).toFixed(2));
    $('#per-person').text(`$${(perPersonCost/noOfPerson).toFixed(2)}`);
