@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="splitter" class="logo" />
+    </header>
+    <main class="main-frame">
+      <div class="left-portion">
+        <p>Bill</p>
+        <input type="number" id="price" min="0" placeholder="0" />
+        <div class="seleted-tip">
+          <p>Select Tip %</p>
+          <section class="buttons">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input type="number" placeholder="Custom" id="custom" min="0" />
+          </section>
+        </div>
+        <p>Number of People<span>can't be zero</span></p>
+        <input type="number" id="people" min="0" placeholder="0" />
+      </div>
+      <div class="right-portion">
+        <section class="sec1">
+          <div class="title">
+            <p>Tip Amount<br /><span>/ person</span></p>
+          </div>
+          <div class="tip-amount" id="per-person">$0.00</div>
+        </section>
+        <section class="sec2">
+          <div class="title">
+            <p>Total<br /><span>/ person</span></p>
+          </div>
+          <div class="tip-amount" id="total">$0.00</div>
+        </section>
+        <button class="reset">Reset</button>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Suvankar Pradhan</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
