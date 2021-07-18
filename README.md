@@ -22,8 +22,8 @@ HTML + CSS + JS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/suvankarpradhan/tip-calculator-app-main)
-- Live Site URL: [Add live site URL here](https://suvankarpradhan.github.io/tip-calculator-app-main/)
+- Solution URL: [Click here](https://github.com/suvankarpradhan/tip-calculator-app-main)
+- Live Site URL: [Click here](https://suvankarpradhan.github.io/tip-calculator-app-main/)
 
 ## My process
 
